@@ -46,6 +46,7 @@ void usage(char *progname)
 {
   fprintf(stderr, "\n");
   fprintf(stderr, "serial v1.0 by Brad Grantham, grantham@plunk.org\n\n");
+  fprintf(stderr, "with a minor fix by Chris Browning\n\n");
   fprintf(stderr, "usage: %s serialportfile baud\n", progname);
   fprintf(stderr, "e.g.: %s /dev/ttyS0 38400\n", progname);
   fprintf(stderr, "\n\nThe file $HOME/.serial (%s/.serial in your specific case) can also\n", getenv("HOME"));
